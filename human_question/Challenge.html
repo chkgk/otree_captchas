@@ -1,0 +1,14 @@
+
+{{ block title }}
+    Informed Consent
+{{ endblock }}
+
+
+{{ block content }}
+
+    {{ include "demo_survey/ConsentText.html" }}
+
+    {{ formfields }}
+    {{ next_button }}
+
+{{ endblock }}

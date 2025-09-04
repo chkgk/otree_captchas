@@ -28,7 +28,13 @@ SESSION_CONFIGS = [
         display_name='Google reCAPTCHA v3 score',
         app_sequence=['google_recaptcha_v3'],
         num_demo_participants=1,
-    )
+    ),
+    dict(
+        name='human_question',
+        display_name='Human Question',
+        app_sequence=['human_question'],
+        num_demo_participants=1,
+    ),
 ]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs
